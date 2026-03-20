@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://lexic.swissgeol.ch/ls_correlations/"
+	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:prefLabel xml:lang="en">LithostratigraphicCorrelations</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostMessinian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post Messinian Correlation Enveloppe encompasses all lithostratigraphic bodies deposited after the Messinian Unconformity, i.e. deposits of Pliocene and Quaternary age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post Messinian</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Messinien</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Post-Messinien</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Post-Messiniano</skos:prefLabel>
+	<skos:notation>15281001</skos:notation>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostMessinianMarine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post Messinian Marine Deposits refer to the local sedimentary record of a last marine incursion of Pliocene age in the Southern Alps («Astien» auct.).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post Messinian Marine Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Messinien Marine Ablagerungen</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts Marins Post-Messiniens</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Depositi Marini Post-Messiniani</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Astian</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Astien</skos:altLabel>
+	<skos:notation>15285022</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinian"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Alpine Cycle Correlation Enveloppe encompasses all lithostratigraphic bodies formed after the peneplenation of the Variscan Orogeny, i.e. from the basal Triassic marine transgression through the Tethyan rifting, oceanisation and subduction to the Alpine continental collision (Alpine Orogeny s.s.).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Alpine Cycle</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpiner Zyklus</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Cycle alpin</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Ciclo alpino</skos:prefLabel>
+	<skos:notation>15283100</skos:notation>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Alpine Orogeny Correlation Enveloppe encompasses all lithostratigraphic bodies formed during the Tethyan subduction and the subsequent continental collision.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Alpine Orogeny</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpine Orogenese</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Orogenèse alpine</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Orogenesi alpina</skos:prefLabel>
+	<skos:notation>15283200</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Alpine Magmatism Correlation Enveloppe encompasses all magmatic bodies of Cenozoic age emplaced regionally during the Alpine Orogenic Cycle, both as deep-seated intrusions and as (sub)surface volcanic edifices.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Alpine Magmatism</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpines Magmatismus</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Magmatisme alpin</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Magmatismo alpino</skos:prefLabel>
+	<skos:notation>15283001</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Alpine Volcanism Correlation Enveloppe encompasse alls (sub)volcanic edifices of Cenozoic age emplaced both within the Alpine Orogeny (along the Periadriatic Fault System) and to its northern border in the Western European Rift System (Hegau).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Alpine Volcanism</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpines Vulkanismus</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Volcanisme alpin</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Vulcanismo alpino</skos:prefLabel>
+	<skos:notation>15283002</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/HegauVolcanism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Volcanism in the Hegau region occured at the northern border of the Alpine Orogeny, in the Western European Rift System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Hegau Volcanism</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Hegau-Vulkanismus</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Volcanisme de l'Hegau</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Vulcanismo dell'Hegau</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Hegau Volcanic Suite, Hegau Volcanic Province</skos:altLabel>
+	<skos:altLabel xml:lang="de">Hegau-Vulkanite</skos:altLabel>
+	<skos:altLabel xml:lang="it">Vulcaniti della Hegovia</skos:altLabel>
+	<skos:notation>15283003</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PeriadriaticVolcanism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Volcanism in the Periadriatic region occured within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Periadriatic Volcanism</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Periadriatisches Vulkanismus</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Volcanisme périadriatique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Vulcanismo periadriatico</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Periadriatic Volcanic Province</skos:altLabel>
+	<skos:altLabel xml:lang="de">Periadriatische Vulkanite</skos:altLabel>
+	<skos:notation>15283004</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineIntrusion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Several Alpine Intrusions occured during the Oligocene within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Alpine Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpine Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Intrusion alpine</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Intrusione alpina</skos:prefLabel>
+	<skos:notation>15283005</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/NovateIntrusion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Novate Intrusion is a local pluton that was emplaced during the Oligocene within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Novate Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Novate-Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Intrusion de Novate</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Intrusione di Novate</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Novate Pluton, Novate Stock</skos:altLabel>
+	<skos:altLabel xml:lang="de">Novate-Pluton, Novate-Intrusionskörper</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Pluton de Novate</skos:altLabel>
+	<skos:notation>15283006</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineIntrusion"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BregagliaIntrusion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Bregaglia Intrusion is a regional pluton that was emplaced during the Oligocene within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Bregaglia Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Bregaglia-Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Intrusion de la Bregaglia</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Intrusione della Bregaglia</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Bergell Pluton, Bregaglia-Iorio Intrusive</skos:altLabel>
+	<skos:altLabel xml:lang="de">Bergell-Pluton, Bergeller Intrusion, Bregaglia-Intrusionskörper</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Pluton du Bergell</skos:altLabel>
+	<skos:altLabel xml:lang="it">batolite bregagliotta, Massiccio Bregagliotto, plutoniti di Bregaglia, Plutone Val Masino-Bregaglia, Complesso di Bregaglia</skos:altLabel>
+	<skos:notation>15283007</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineIntrusion"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AdamelloIntrusion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Adamello Intrusion is a regional pluton that was emplaced during the Oligocene within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Adamello Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Adamello-Intrusion</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Intrusion de l'Adamello</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Intrusione dell'Adamello</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Adamello Batholith, Adamello Pluton</skos:altLabel>
+	<skos:altLabel xml:lang="de">Adamello-Batholith, Adamello-Pluton, Adamellogruppe</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Batholite de l'Adamello</skos:altLabel>
+	<skos:altLabel xml:lang="it">batolite dell'Adamello, plutoniti dell'Adamello</skos:altLabel>
+	<skos:notation>15283008</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineIntrusion"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Sedimentary Cover Correlation Enveloppe refers to the relatively thin layer of sedimentary rocks that lies on top of an older crystalline basement. In case of the Alpine Cycle, these sedimentary rocks are of (Permo-)Triassic to Cenozoic age. The Sedimentary Cover can be found still adherent to its basement or detached along a weak layer (mostly evaporites of Triassic age).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Sedimentary Cover</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Sedimentbedeckung</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Couverture sédimentaire</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Copertura sedimentaria</skos:prefLabel>
+	<skos:notation>15285001</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostCollision">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post-Collision Correlation Enveloppe refers to all lithostratigraphic bodies that were formed after the main Alpine orogenic phase, i.e.the "post-flysch" infilling of the foreland basins, both north and south of the Alpine Mountain Chain.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Kollision</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Post-collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Post-collisione</skos:prefLabel>
+	<skos:notation>15285002</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LombardianGompholite">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">… "post-flysch" infilling of the South-Alpine Foreland Basin, with mainly clastic material …</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lombardian Gompholite</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Lombardischer Gompholit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Gompholite Lombarde</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Gonfolite Lombarda</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Südalpine Molasse, Gonfolite-Gruppe</skos:altLabel>
+	<skos:notation>15285003</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Molasse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">In Switzerland, the “Molasse Supergroup” encompasses all "post-flysch" deposits accumulated in the foreland basins bordering the Alpine mountain range and resulting from the erosion of that range. These are therefore primarily more or less coarse detrital sequences (conglomerates, sandstones, clays). For the Swiss molasse basin, this mainly concerns the Oligocene and Miocene (between approximately 33 and 10 million years ago), with alternating fluvial-lacustrine and shallow marine environments, depending on the relative sea level, basin subsidence, and uplift of the relief.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Molasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Molasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Molasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Molassa</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Molasse Supergroup</skos:altLabel>
+	<skos:altLabel xml:lang="de">Molasse-Supergruppe</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Mollasse</skos:altLabel>
+	<skos:notation>15285004</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OSM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Upper Freshwater Molasse (OSM = Obere Süsswassermolasse) is the youngest molasse group (Middle Miocene; approx. 17–13 Ma, possibly locally up to 10.5 Ma) with a mosaic of diverse terrestrial facies: rivers and alluvial fans (e.g. Napf and Hörnli), lakes, coal-forming swamps, and soil horizons. At that time, sediment transport in the basin axis took place in a southwesterly direction, typically forming a alternation of conglomerate, sandstone and yellow marlstone. In the distal area of the Hörnli fan, with only sparse conglomerate beds, bentonites play an important role as stratigraphic key horizons. However, by far the most striking key horizon of the OSM is the “Appenzeller Granit,” a more or less isochronous catastrophic deposit.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Upper Freshwater Molasse (OSM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Obere Süsswassermolasse (OSM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Molasse d'eau douce supérieure (OSM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Molassa d'acqua dolce superiore (OSM)</skos:prefLabel>
+	<skos:altLabel xml:lang="en">UFM</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MDS</skos:altLabel>
+	<skos:notation>15285005</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OSM2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The upper part of the Upper Freshwater Molasse (OSM-II) is situated above the Appenzellergranit Marker Level. It consists of a sequence of limnic deposits, limestone, mica sandstone, colorful marlstone and conglomerate deposits. Specific local to regional successions (e.g. Thurgauer Molasse, Zürcher Molasse) can only be correlated to a limited extent.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">OSM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">OSM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">OSM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">OSM-II</skos:prefLabel>
+	<skos:altLabel xml:lang="en">OSM-2</skos:altLabel>
+	<skos:notation>15285006</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OSMmid">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Appenzellergranit Marker Level is an important reference horizon subdividing the OSM in and around the Hörnli Alluvial Fan. It consists of a unique debris flow deposit with regional variation in terms of granulometry and composition.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Appenzellergranit Marker Level</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Appenzellergranit-Leitniveau</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Niveau repère de l'Appenzellergranit</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Livello guida dell'Appenzellergranit</skos:prefLabel>
+	<skos:notation>15285007</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OSM1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The lower part of the Upper Freshwater Molasse (OSM-I) is situated beneath the Appenzellergranit Marker Level. It consists of a sequence with frequent limnic deposits in its lower part (gray marlstone, freshwater limestone, coal seams) and becoming increasingly conglomeratic towards the top.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">OSM-I</skos:prefLabel>
+	<skos:altLabel xml:lang="en">OSM-1</skos:altLabel>
+	<skos:altLabel xml:lang="de">untere Stufe der OSM, Basiszone der OSM</skos:altLabel>
+	<skos:notation>15285008</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USMOSM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">In the proximal areas of the Molasse Basin, terrestrial inputs from alluvial fans span the whole Molasse succession, with no identifiable marine intercalation. Consequently the Lower and Upper Freshwater Molasse groups cannot be separated in those regions and have to be assigned to a USM to OSM composite unit.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">USM-III to OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">USM-III bis OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">USM-III à OSM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">USM-III a OSM-I</skos:prefLabel>
+	<skos:notation>15285009</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OMM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Upper Marine Molasse (OMM = Obere Meeresmolasse) is the youngest molasse group of predominantly marine facies (Early Miocene, approx. 21-17 Ma). It consists mainly of wave- and tide-dominated sandstones (especially shell sandstones), which indicates a coastal-dominated facies. The sinking foredeep of the Molasse Basin was flooded by a shallow sea advancing from the southwest to the east, which connected the Rhône and Vienna Basins. These last marine deposits of Miocene age are intercalated by terrestrial inputs from the large Napf and Hörnli Alluvial Fans. Lithostratigraphically, the OMM is divided into two parts by a striking regression horizon.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Upper Marine Molasse (OMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Obere Meeresmolasse (OMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Molasse marine supérieure (OMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Molassa marina superiore (OMM)</skos:prefLabel>
+	<skos:altLabel xml:lang="en">UMM</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MMS</skos:altLabel>
+	<skos:notation>15285010</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OMM2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The upper part of the Upper Marine Molasse (OMM-II) represents the second and last marine transgression of the Miocene. At the same time, the Molasse Basin reached its maximum extension towards the NW and the debris transport from the Alps intensified (with basin-axial flow transport mostly to the east).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">OMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">OMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">OMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">OMM-II</skos:prefLabel>
+	<skos:altLabel xml:lang="en">OMM-2</skos:altLabel>
+	<skos:altLabel xml:lang="de">Obere Abteilung der Oberen Molasse, Helvétien</skos:altLabel>
+	<skos:notation>15285011</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OMM1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The lower part of the Upper Marine Molasss (OMM_I) represents the first marine transgression of the Miocene. It is characterized by shallow-water sediments with hints of increased salinity (glauconite content, microfauna, abundance of scutella in the shelly sandstone). Regionally widespread shelly sandstones are interpreted as deposits formed during the maximum extent of this transgression. It was then followed by a regression, which led to the local deposition of a fluvioterrestrial to brackish complex.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">OMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">OMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">OMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">OMM-I</skos:prefLabel>
+	<skos:altLabel xml:lang="en">OMM-1</skos:altLabel>
+	<skos:altLabel xml:lang="de">Untere Abteilung der Oberen Molasse, Burdigalien</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Molasse burdigalienne</skos:altLabel>
+	<skos:notation>15285012</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lower Freshwater Molasse (USM = Untere Süsswassermolasse) was deposited during the main phase of Alpine uplift, when the sea receded and fluvial, palustrine, and lacustrine (rarely brackish) facies spread over the whole foreland basin. At the same time (Oligocene; approx. 30–21 Ma), and almost abruptly, the deposition of coarse debris began in the form of prograding alluvial fans (Mont Pèlerin, Thunersee, Rigi-Rossberg, Speer, and somewhat later also Napf, Höhrone, and Gäbris-Kronberg) at the rim of the Alps. The basin-axial flow transport took place in a northeasterly direction.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lower Frehswater Molasse (USM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Untere Süsswassermolasse (USM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Molasse d'eau douce inférieure (USM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Molassa d'acqua dolce inferiore (USM)</skos:prefLabel>
+	<skos:altLabel xml:lang="en">LFM</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oligocäne Molasse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MDI, Molasse oligocène</skos:altLabel>
+	<skos:notation>15285013</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USM3">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Locally, large fluvial sediment inputs build up alluvial fans where the non-marine deposition of the USM continues despite the transgression of the OMM. These deposits are grouped together as an uppermost part of the Lower Freshwater Molasse (USM-III).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">USM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">USM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">USM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">USM-III</skos:prefLabel>
+	<skos:altLabel xml:lang="en">USM-3</skos:altLabel>
+	<skos:notation>15285014</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USM2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The upper part of the Lower Freshwater Molasse (USM-II) is mainly composed of grey granitic sandstones and reddish marly intercalations. Coarser facies associations with polymictic conglomerates occur in alluvial fans of the Subalpine Molasse. In the upper part of the USM-II, thicker marly intervals occur frequently in certain regions (e.g. “Oberaquitane Mergelzone” in the Hörnli Alluvial Fan or “Obere Bunte Molasse” at the southern foot of the Jura Mountains).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">USM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">USM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">USM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">USM-II</skos:prefLabel>
+	<skos:altLabel xml:lang="en">USM-2</skos:altLabel>
+	<skos:altLabel xml:lang="de">Aquitanien, Granitische Molasse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Molasse aquitanienne</skos:altLabel>
+	<skos:notation>15285015</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USM1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The lower part of the Lower Freshwater Molasse (USM-I) consists of a rather monotonous alternation of colorful marlstones and sandstones deposited in a fluvial alluvial plain with low relief and varying sedimentation conditions. Coarser facies associations with conglomerates were deposited in alluvial fans at the rim of the Alps (local gompholites are also found at the southern foot of and within the Jura Mountains). Brackish deposits occur regionally in the upper part of the USM-I (western Switzerland and east of the Iller).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">USM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">USM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">USM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">USM-I</skos:prefLabel>
+	<skos:altLabel xml:lang="en">USM-1</skos:altLabel>
+	<skos:altLabel xml:lang="de">Chattien</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Molasse chattienne</skos:altLabel>
+	<skos:notation>15285016</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/USMbase">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Basal USM Correlation Enveloppe encompasses lithostratigraphic bodies representing the first terrestrial molasse deposits (mostly freshwater limestones, gompholites and residual clays) of the Jura and its southern foot. These units are intercalated between the Siderolithic and the marine incursion of the UMM-J. In the absence of the latter, only a few thin layers of lacustrine limestone (“Calcaires Inférieurs”) are attached to the basal part of the USM, mainly on the basis of age criteria.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Basal levels of the USM</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Basisbildungen der USM</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Niveaux de base de l'USM</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Livelli basali dell'USM</skos:prefLabel>
+	<skos:altLabel xml:lang="en">BSM</skos:altLabel>
+	<skos:altLabel xml:lang="de">Basale Süsswassermolasse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Groupe des Calcaires Inférieurs et Terres Jaunes</skos:altLabel>
+	<skos:notation>15285017</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/UMM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lower Marine Molasse (UMM = Untere Meeresmolasse) is characterised by facies transitional between flysch and molasse deposits. It consist of a thick sequence of shallow marine shales, with interbedded “flysch-like” sandstone beds. With the gradual northward shift of the trough axis, the subsidence rate and thus the thickness decrease and the UMM ultimately wedges out in the southern part of the Plateau Molasse, as can be proven from boreholes. At the end of this sequence, marine sandy facies are widespread. These regressive deposits end up diachronously (in Switzerland, the last remnants are found towards the northeast and southwest). Regions with coarser facies are rather assigned to flysch deposits, with a somewhat arbitrary boundary between molasse and flysch.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lower Marine Molasse (UMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Untere Meeresmolasse (UMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Molasse marine inférieure (UMM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Molassa marina inferiore (OMM)</skos:prefLabel>
+	<skos:altLabel xml:lang="en">LMM</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MMI, Molasse rupélienne</skos:altLabel>
+	<skos:notation>15285018</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/UMM3">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The upper part of the Lower Marine Molasse (UMM-III) is dominated by sandy deposits with marly intercalations. This subgroup is interpreted as a regressive marine facies.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">UMM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">UMM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">UMM-III</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">UMM-III</skos:prefLabel>
+	<skos:altLabel xml:lang="en">UMM-3</skos:altLabel>
+	<skos:altLabel xml:lang="de">Obere UMM, Regressive Küstenfazies</skos:altLabel>
+	<skos:notation>15285019</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/UMM2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The middle part of the Lower Marine Molasse (UMM-II) is dominated by marly deposits with individual sandstone beds becoming more frequent towards the top.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">UMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">UMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">UMM-II</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">UMM-II</skos:prefLabel>
+	<skos:altLabel xml:lang="en">UMM-2</skos:altLabel>
+	<skos:altLabel xml:lang="de">Mittlere UMM, Tonmergelabfolge</skos:altLabel>
+	<skos:notation>15285020</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/UMM1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The lower part of the Lower Marine Molasse (UMM-I) consists of a fine to medium-grained turbiditic, flysch-like succession interpreted as distal fan deposits of the Alpine foredeep. Regions with coarser facies are rather assigned to flysch deposits, with a somewhat arbitrary boundary between molasse and flysch.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">UMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">UMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">UMM-I</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">UMM-I</skos:prefLabel>
+	<skos:altLabel xml:lang="en">UMM-1</skos:altLabel>
+	<skos:altLabel xml:lang="de">Untere UMM, Flysch-Molasse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Série molassique à faciès flysch</skos:altLabel>
+	<skos:notation>15285021</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/SynCollision">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Syn-Collision Correlation Enveloppes encompass lithostratigraphic units formed at the Alpine front during the main phase(s) of deformation. These synorogenic deposits are mainly flyschs and mélanges.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Syn-Collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Syn-Kollision</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Syn-collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Sin-collisione</skos:prefLabel>
+	<skos:notation>15285023</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Melange">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Mélanges are synorogenic chaotic deposits characterised by a block-in-matrix fabric ("wildflysch", "flysch à lentilles", resp. "blocs exotiques" auct.) . They are thought to be formed by sedimentary processes at the active Alpine front, by tectonic processes within the Alpine nappe stack, or by a combination of both.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Mélange</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Melange</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Mélange</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Mélange</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="de">Wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="it">Wildflysch</skos:altLabel>
+	<skos:notation>15285024</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Flysch">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Flyschs are synorogenic turbiditic deposits formed in foredeeps at the active Alpine front.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Flysch</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Flysch</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Flysch</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Flysch</skos:prefLabel>
+	<skos:notation>15285025</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PreCollision">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Pre-Collision Correlation Enveloppes encompass lithostratigraphic units formed before the main phase of Alpine mountain building, resp. outside of the reach of the orogenic deformation front.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Pre-Collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Prä-Kollision</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Pré-collision</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Pre-collisione</skos:prefLabel>
+	<skos:notation>15285026</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Nummulitic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The «Nummulitic» Correlation Enveloppe encompasses transgressive deposits of Paleogene age, preceding the collisional phase of the Alpine Orogenic Cycle. They rest on an erosive unconformity (with local pockets of Siderolithic alteration deposits).</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">«Nummulitic»</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">«Nummulitikum»</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">«Nummulitique»</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">«Nummulitico»</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Paleogene</skos:altLabel>
+	<skos:altLabel xml:lang="de">Nummuliten-Bildung</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Terrain nummulitique, groupe nummulitique</skos:altLabel>
+	<skos:notation>15285027</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Siderolithic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The «Siderolitic» Correlation Enveloppe encompasses alteration deposits underlining a major erosive unconformity of Late Cretaceous to Paleogene age. These are locally preserved as pockets of iron-rich pisolites, clays and quartzitic sand.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Siderolithic</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Siderolithikum</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Sidérolithique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Siderolitico</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Siderolithic Group</skos:altLabel>
+	<skos:altLabel xml:lang="de">Siderolithische Bildungen, Bohnerzbildung, Eozän</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Terrain sidérolithique</skos:altLabel>
+	<skos:notation>15285028</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreCollision"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostRift">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Post-Rift Correlation Enveloppes encompass lithostratigraphic units formed after the Tethyan rifting phase and before the Alpine mountain building.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Port-rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Port-rift</skos:prefLabel>
+	<skos:notation>15285029</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post-Rift Pelagic Correlation Enveloppe encompasses pelagic deposits of Middle/Late Jurassic to early Paleogene age. Depending on the region they are found directly overlying detrital syn-rift deposits or the ophiolitic ocean floor, or ontop of carbonate platform or detrital deposits of Late Jurassic and Cretaceous age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Rift Mesozoic in pelagic facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Rift Mesozoikum in pelagischer Fazies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Mésozoïque post-rift en faciès pélagique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies pelagico</skos:prefLabel>
+	<skos:notation>15285030</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/CouchesRouges">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Couches Rouges Correlation Enveloppe refers to pelagic sedimentary deposits of late Cretaceous to early Paleogene age, characterized by their marly nature, red or greenish-gray color, and abundance of planctonic microfossils.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Couches Rouges</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Couches Rouges</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Couches Rouges</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Couches Rouges</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Schistes calcaires rouges</skos:altLabel>
+	<skos:notation>15285031</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Scaglia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Scaglia Correlation Enveloppe encompasses multicoloured (variegated) fine-grained pelagic deposits of Late Cretaceous age in the South Alpine domain.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Scaglia</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Scaglia</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Scaglia</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Scaglia</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Kreideschichten</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Calcaire crayeux d'Italie</skos:altLabel>
+	<skos:notation>15285032</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Maiolica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Maiolica Correlation Enveloppe encompasses white-coloured micritic limestone deposits of Late Jurassic to Early Cretaceous age in the South Alpine domain.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Maiolica / Aptychus Limestone</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Maiolica / Aptychenkalk</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Maiolica / Calcaire à aptychus</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Maiolica / Calcare ad Aptici</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Majolicakalk</skos:altLabel>
+	<skos:altLabel xml:lang="it">Biancone</skos:altLabel>
+	<skos:notation>15285033</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Radiolarite">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Radiolarite Correlation Enveloppe encompasses radiolarian-rich deposits of Middle to Late Jurassic age in the South Alpine domain.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Radiolarite</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Radiolarit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Radiolarite</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Radiolarite</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Radiolarit-Gruppe</skos:altLabel>
+	<skos:altLabel xml:lang="it">Selcifero</skos:altLabel>
+	<skos:notation>15285034</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostRiftDetrital">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post-Rift Detrital Correlation Enveloppe encompasses widespread sandy, clayey and anoxic facies of Late Cretaceous age intercalated between carbonate platform deposits of Late Jurassic and Early Cretaceous age and more pelagic sediments of Late Cretaceous age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Rift Mesozoic in detrital facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Rift Mesozoikum in detritischer Fazies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Mésozoïque post-rift en faciès détritique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies detritico</skos:prefLabel>
+	<skos:notation>15285035</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Gault">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Gault Correlation Enveloppe encompasses detritic deposits (quartzitic and glauconitic sandstone) of Aptian to Cenomanian age on the European platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">«Gault»</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">«Gault»</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">«Gault»</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">«Gault»</skos:prefLabel>
+	<skos:notation>15285036</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftDetrital"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostRiftPlatform">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post-Rift Carbonate Platform Correlation Enveloppe encompasses carbonate platform deposits (most notably massive limestones) of Late Jurassic and Early Cretaceous age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Rift Mesozoic in platform facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Rift Mesozoikum in Plattform-Fazies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Mésozoïque post-rift en faciès de plateforme</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies di piattaforma</skos:prefLabel>
+	<skos:notation>15285037</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Urgonian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Urgonian Correlation Enveloppe encompasses rudist-bearing massive carbonate platform limestone of Cretaceous age on the European plaftorm.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">«Urgonian»</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">«Urgonien»</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">«Urgonien»</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">«Urgoniano»</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Calcaires urgoniens</skos:altLabel>
+	<skos:notation>15285038</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPlatform"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Malm">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Malm Correlation Enveloppe (Malm Group) encompasses massive carbonate platform deposits and more basinal facies (underlying or passing laterally to them) of Late Jurassic age on the European platform and Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Malm</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Upper Jurassic</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberjura, Oberer Jura, Malmkalk</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Jurassique supérieur, Calcaire du Malm</skos:altLabel>
+	<skos:altLabel xml:lang="it">Giurassico superiore</skos:altLabel>
+	<skos:notation>15285039</skos:notation>
+	<skos:historyNote xml:lang="en">In the past, the term Malm was also used to indicate the unit of geological time of the Late Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPlatform"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/MalmUpper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Upper Malm Correlation Enveloppe refers to the upper part of the Malm, characterised by massive carbonate platform deposits of Kimmeridgian to Tithonian age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Upper Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Oberer Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Malm supérieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Malm superiore</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Sequanian, Kimmeridgian, Portlandian</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Séquanien, Kimméridgien, Portlandien</skos:altLabel>
+	<skos:notation>15285055</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/MalmLower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lower Malm Correlation Enveloppe refers to the lower part of the Malm, with facies transitions between clayey basinal deposits («Oxfordien» and «Argovien» auct.) and (peri)reefal limestones («Rauracien» auct.), mainly of Oxfordian age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lower Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Unterer Malm</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Malm inférieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Malm inferiore</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Oxfordian, Argovian, Rauracian</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Oxfordien, Argovien, Rauracien</skos:altLabel>
+	<skos:notation>15285056</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/SynRift">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Alpine Syn-Rift Correlation Enveloppes encompass lithostratigraphic units formed during the Tethyan rifting phase in the Early to Middle Jurassic. Besides the ophiolitic crust, the Liassic and Dogger groups also record a deepening trend in an active tectonic setting (highs and troughs), with detrital intervals witnessing the proximity to the migrating rift bulge.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Syn-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Syn-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Syn-rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Sin-Rift</skos:prefLabel>
+	<skos:notation>15285040</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OphioliticSequence">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Tethyan Ophiolite Correlation Enveloppe encompasses the ophiolitic sequences of Middle to Late Jurassic age that built up the floor of the Tethys Ocean.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Tethyan Ophiolitic Sequence</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Tethys Ophiolithische Abfolge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Séquence ophiolitique téthysienne</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Sequenza ofiolitica tetida</skos:prefLabel>
+	<skos:notation>15285041</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasDogger">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lias-Dogger Correlation Enveloppes encompass lithostratigraphic units formed during the Tethyan rifting phase in the Early to Middle Jurassic, i.e. a deepening ssedimentary equence in an active tectonic setting (highs and troughs), with detrital intervals witnessing the proximity to the migrating rift bulge.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lias-Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Lias-Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias-Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias-Dogger</skos:prefLabel>
+	<skos:notation>15285043</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasDoggerBreccia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Brecciose Lias-Dogger Correlation Enveloppe encompasses coarse-grained syn-rift deposits (breccia) witnessing the proximity to the migrating rift bulge.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lias-Dogger in breccia facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Lias-Dogger in brekziöser Fazies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias-Dogger en faciès bréchique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias-Dogger in facies breccioso</skos:prefLabel>
+	<skos:notation>15285044</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Dogger">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Dogger Correlation Enveloppe (Dogger Group) encompasses marine limestones (oolitic, bioclastic and/or sandy) and claystones of Middle Jurassic age on the European platform and the Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Dogger</skos:prefLabel>
+	<skos:notation>15285057</skos:notation>
+	<skos:historyNote xml:lang="en">In the past, the term Dogger was also used to indicate the unit of geological time of the Middle Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/DoggerUpper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Upper Dogger Correlation Enveloppe designates the slightly more clayey upper part of the Dogger Group, of late Bathonian to early Oxfordian age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Upper Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Oberer Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dogger supérieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Dogger superiore</skos:prefLabel>
+	<skos:notation>15285058</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Dogger"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/DoggerLower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lower Dogger Correlation Enveloppe encompasses a varied, largely detrital, carbonate succession of Aalenian to Bathonian age passing laterally to more clayey basinal facies.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lower Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Unterer Dogger</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dogger inférieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Dogger inferiore</skos:prefLabel>
+	<skos:notation>15285059</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Dogger"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Lias">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lias Correlation Enveloppe (Lias Group) encompasses marine limestones, marlstones and claystones of Early Jurassic age on the European platform and the Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias</skos:prefLabel>
+	<skos:notation>15285060</skos:notation>
+	<skos:historyNote xml:lang="en">In the past, the term Lias or Liassic was also used to indicate the unit of geological time of the Early Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Dogger"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasUpper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Upper Lias Correlation Enveloppe encompasses mostly clayey deposits of Toarcian to Aalenian age on the European platform and the Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Upper Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Oberer Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias supérieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias superiore</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Toarcian, Aalenian</skos:altLabel>
+	<skos:notation>15285061</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Lias"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasMiddle">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Middle Lias Correlation Enveloppe encompasses limestones and claystones of Sinermuian to Pliensbachian age on the European platform and the Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Middle Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Mittlerer Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias moyen</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias medio</skos:prefLabel>
+	<skos:notation>15285062</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Lias"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasLower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Lower Lias Correlation Enveloppe encompasses claystones and limestones of Hettangian age on the European platform and the Briançonnais terrane.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lower Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Unterer Lias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias inférieur</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias inferiore</skos:prefLabel>
+	<skos:notation>15285063</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Lias"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LiasDoggerPelagic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">On the northern margin of the Adriatic plate, the Pelagic Lias-Dogger Correlation Enveloppe encompasses predominantly clayey lithostratigraphic bodies of Early to Middle Jurassic age with interspersed detrital levels.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Lias-Dogger in pelagic facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Lias-Dogger in pelagischer Fazies</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lias-Dogger en faciès pélagique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Lias-Dogger in facies pelagico</skos:prefLabel>
+	<skos:notation>15285042</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PreRift">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Alpine Pre-Rift Correlation Enveloppes encompasses lithostratigraphic units of the Sedimentary Cover (i.e. excluding the Crystalline Basement) formed prior to the Tethyan rifting phase.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Pre-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Prä-Rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Pré-rift</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Pre-Rift</skos:prefLabel>
+	<skos:notation>15285045</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/TriassicPelitic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Pelitic Triassic Correlation Enveloppe designates the upper part of the Triassic lithostratigraphic trilogy, predominantly represented by pelitic facies.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Triassic in pelitic facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Pelitische Trias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Trias en faciès pélitique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Triassico pelitico</skos:prefLabel>
+	<skos:notation>15285046</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Rhaetian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Rhaetian Correlation Enveloppe designates the uppermost part of the Triassic lithostratigraphic succession, characterised by lumachelles, claystones and sandstones.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">«Rhaetian»</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">«Rhät»</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">«Rhétien»</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">«Retico»</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Infraliassic</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Infralias</skos:altLabel>
+	<skos:notation>15285047</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Keuper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Keuper Correlation Enveloppe designates the upper part of the Triassic lithostratigraphic trilogy, predominantly represented by pelitic facies on the European platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Keuper</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Keuper</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Keuper</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Keuper</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Upper Triassic</skos:altLabel>
+	<skos:altLabel xml:lang="de">Keuper-Gruppe, Obere Trias</skos:altLabel>
+	<skos:notation>15285048</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/TriassicCarbonate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Carbonate Triassic Correlation Enveloppe designates the middle part of the Triassic lithostratigraphic trilogy characterised by the first marine carbonate deposits of the sedimentary succession of the Alpine Cycle.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Triassic in carbonate facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Karbonatische Trias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Trias en faciès carbonaté</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Triassico carbonato</skos:prefLabel>
+	<skos:notation>15285049</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Muschelkalk">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Muschelkalk Correlation Enveloppe designates the middle part of the Triassic lithostratigraphic trilogy characterised by the first marine carbonate deposits of the sedimentary succession of the Alpine Cycle on the European platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Muschelkalk</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Muschelkalk</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Muschelkalk</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Muschelkalk</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Middle Triassic</skos:altLabel>
+	<skos:altLabel xml:lang="de">Muschelkalk-Gruppe, Mittlere Trias</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Calcaire coquiller, Conchylien</skos:altLabel>
+	<skos:notation>15285050</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Hauptdolomit">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Hauptdolomit Correlation Enveloppe is characterised by widespread massive dolomitic deposits of the south Tethyan platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Hauptdolomit</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Hauptdolomit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Hauptdolomit</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Dolomia Principale</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Hauptdolomit-Gruppe</skos:altLabel>
+	<skos:notation>15285051</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Raibl">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Raibl Correlation Enveloppe encompasses lithostratigraphic bodies with heterogeneous lithologies (clayey, sandy, carbonated and evaporitic) intercalated between the detrital base of the Sedimentary Cover and the massive dolomitic deposits of Triassic age of the south Tethyan platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Raibl</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Raibl</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Raibl</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Raibl</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Raibl Group</skos:altLabel>
+	<skos:altLabel xml:lang="de">Raibl-Gruppe</skos:altLabel>
+	<skos:notation>15285052</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/TriassicDetrital">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Detrital Triassic Correlation Enveloppe designates the detrital basis of the sedimentary succesion of the Alpine Cycle of (Permo-)Triassic age.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">(Permo-)Triassic in detrital facies</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Detritische (Permo-)Trias</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">(Permo-)Trias en faciès détritique</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">(Permo-)Triassico detritico</skos:prefLabel>
+	<skos:notation>15285053</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Buntsandstein">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Buntsandstein Correlation Enveloppe designates the lower part of the Triassic lithostratigraphic trilogy forming the detrital basis of the sedimentary succesion of the Alpine Cycle on the European platform.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Buntsandstein</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Buntsandstein</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Buntsandstein</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Buntsandstein</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Lower Triassic</skos:altLabel>
+	<skos:altLabel xml:lang="de">Buntsandstein-Gruppe, Untere Trias</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Grès bigarrés</skos:altLabel>
+	<skos:notation>15285054</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Ante-Alpine Basement Correlation Enveloppe encompasses all lithostratigraphic units older than the (Permo-)Triassic detrital basis of the sedimentary succesion of the "Alpine Cycle".</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:topConceptOf rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Ante-Alpine Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Präalpines Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle anté-alpin</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento ante-alpino</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Crystalline Basement</skos:altLabel>
+	<skos:altLabel xml:lang="de">Kristallines Grundgebirge, Kristallin</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Socle cristallin, Cristallin</skos:altLabel>
+	<skos:altLabel xml:lang="it">Cristallino</skos:altLabel>
+	<skos:notation>15287001</skos:notation>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during the Variscan Orogenic Cycle.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Variszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento varisco</skos:prefLabel>
+	<skos:notation>15287002</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Late to Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced at the end of the Variscan Orogenic Cycle and therefore not (or only weakly) affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Late to Post Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Spät- bis postvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle tardi- à post-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento tardi- a post-varisco</skos:prefLabel>
+	<skos:notation>15287003</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPost">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced at the very end of the Variscan Orogenic Cycle and therefore not affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Postvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle post-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento post-varisco</skos:prefLabel>
+	<skos:notation>15287004</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Late Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced in a late phase of the Variscan Orogenic Cycle and therefore only partly affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Late Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Spätvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle tardi-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento tardi-varisco</skos:prefLabel>
+	<skos:notation>15287005</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanMiddle">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Middle Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during the Variscan Orogenic Cycle and clearly affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Middle Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Mittelvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle médio-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento medio-varisco</skos:prefLabel>
+	<skos:notation>15287006</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPreEarly">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Pre- to Earl Variscan Basement Correlation Enveloppe encompasses sedimentary rocks formed before or during the early phase(s) of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Pre- to Early Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Prä- bis frühvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle anté- à éo-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento pre- a eovarisco</skos:prefLabel>
+	<skos:notation>15287007</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanEarly">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Early Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during an early phase of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Early Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Frühvariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle éo-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento eovarisco</skos:prefLabel>
+	<skos:notation>15287008</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPreEarly"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementPrevariscan">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Pre-Variscan Basement Correlation Enveloppe encompasses crystalline rocks emplaced before the Variscan Orogenic Cycle and displaying a polycyclic metamorphic history.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Pre-Variscan Basement</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Prävariszisches Grundgebirge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Socle anté-varisque</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Basamento ante-varisco</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Pre-Hercanian Gneiss Series</skos:altLabel>
+	<skos:altLabel xml:lang="de">Altkristallin, Polyzyklisches Grundgebirge, Vorvariszisches Grundgebirge</skos:altLabel>
+	<skos:notation>15287009</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine"/>
+	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+</rdf:RDF>
