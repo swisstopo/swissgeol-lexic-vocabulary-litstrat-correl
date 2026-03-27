@@ -29,6 +29,7 @@
 	<skos:prefLabel xml:lang="fr">Post-Messinien</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Post-Messiniano</skos:prefLabel>
 	<skos:notation>15281001</skos:notation>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianMarine"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -57,6 +58,8 @@
 	<skos:prefLabel xml:lang="fr">Cycle alpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Ciclo alpino</skos:prefLabel>
 	<skos:notation>15283100</skos:notation>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -70,6 +73,7 @@
 	<skos:prefLabel xml:lang="it">Orogenesi alpina</skos:prefLabel>
 	<skos:notation>15283200</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -83,6 +87,8 @@
 	<skos:prefLabel xml:lang="it">Magmatismo alpino</skos:prefLabel>
 	<skos:notation>15283001</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineIntrusion"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -96,6 +102,8 @@
 	<skos:prefLabel xml:lang="it">Vulcanismo alpino</skos:prefLabel>
 	<skos:notation>15283002</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/HegauVolcanism"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PeriadriaticVolcanism"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -140,6 +148,9 @@
 	<skos:prefLabel xml:lang="it">Intrusione alpina</skos:prefLabel>
 	<skos:notation>15283005</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/NovateIntrusion"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BregagliaIntrusion"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AdamelloIntrusion"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -203,6 +214,12 @@
 	<skos:prefLabel xml:lang="it">Copertura sedimentaria</skos:prefLabel>
 	<skos:notation>15285001</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynCollision"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreCollision"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PreRift"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -216,6 +233,8 @@
 	<skos:prefLabel xml:lang="it">Post-collisione</skos:prefLabel>
 	<skos:notation>15285002</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LombardianGompholite"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -246,6 +265,11 @@
 	<skos:altLabel xml:lang="fr">Mollasse</skos:altLabel>
 	<skos:notation>15285004</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USMOSM"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -261,6 +285,9 @@
 	<skos:altLabel xml:lang="fr">MDS</skos:altLabel>
 	<skos:notation>15285005</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM2"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSMmid"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM1"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -331,6 +358,8 @@
 	<skos:altLabel xml:lang="fr">MMS</skos:altLabel>
 	<skos:notation>15285010</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM2"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM1"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -378,6 +407,10 @@
 	<skos:altLabel xml:lang="fr">MDI, Molasse oligocène</skos:altLabel>
 	<skos:notation>15285013</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM3"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM2"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM1"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USMbase"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -455,6 +488,9 @@
 	<skos:altLabel xml:lang="fr">MMI, Molasse rupélienne</skos:altLabel>
 	<skos:notation>15285018</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM3"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM2"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM1"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -514,6 +550,8 @@
 	<skos:prefLabel xml:lang="it">Sin-collisione</skos:prefLabel>
 	<skos:notation>15285023</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Melange"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Flysch"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -557,6 +595,8 @@
 	<skos:prefLabel xml:lang="it">Pre-collisione</skos:prefLabel>
 	<skos:notation>15285026</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Nummulitic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Siderolithic"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -602,6 +642,9 @@
 	<skos:prefLabel xml:lang="it">Port-rift</skos:prefLabel>
 	<skos:notation>15285029</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPelagic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftDetrital"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPlatform"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -615,6 +658,10 @@
 	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies pelagico</skos:prefLabel>
 	<skos:notation>15285030</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/CouchesRouges"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Scaglia"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Maiolica"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Radiolarite"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -687,6 +734,7 @@
 	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies detritico</skos:prefLabel>
 	<skos:notation>15285035</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Gault"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -713,6 +761,8 @@
 	<skos:prefLabel xml:lang="it">Mesozoico post-rift in facies di piattaforma</skos:prefLabel>
 	<skos:notation>15285037</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Urgonian"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -760,6 +810,8 @@
 	<skos:altLabel xml:lang="fr">Séquanien, Kimméridgien, Portlandien</skos:altLabel>
 	<skos:notation>15285055</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/MalmUpper"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/MalmLower"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -788,6 +840,8 @@
 	<skos:prefLabel xml:lang="it">Sin-Rift</skos:prefLabel>
 	<skos:notation>15285040</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OphioliticSequence"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -814,6 +868,7 @@
 	<skos:prefLabel xml:lang="it">Lias-Dogger</skos:prefLabel>
 	<skos:notation>15285043</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Dogger"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -826,7 +881,7 @@
 	<skos:prefLabel xml:lang="fr">Lias-Dogger en faciès bréchique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Lias-Dogger in facies breccioso</skos:prefLabel>
 	<skos:notation>15285044</skos:notation>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -841,6 +896,8 @@
 	<skos:notation>15285057</skos:notation>
 	<skos:historyNote xml:lang="en">In the past, the term Dogger was also used to indicate the unit of geological time of the Middle Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/DoggerUpper"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/DoggerLower"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -880,7 +937,10 @@
 	<skos:prefLabel xml:lang="it">Lias</skos:prefLabel>
 	<skos:notation>15285060</skos:notation>
 	<skos:historyNote xml:lang="en">In the past, the term Lias or Liassic was also used to indicate the unit of geological time of the Early Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Dogger"/>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasUpper"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasMiddle"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasLower"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -933,7 +993,7 @@
 	<skos:prefLabel xml:lang="fr">Lias-Dogger en faciès pélagique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Lias-Dogger in facies pelagico</skos:prefLabel>
 	<skos:notation>15285042</skos:notation>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynRift"/>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -947,6 +1007,15 @@
 	<skos:prefLabel xml:lang="it">Pre-Rift</skos:prefLabel>
 	<skos:notation>15285045</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/TriassicPelitic"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Rhaetian"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Keuper"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/TriassicCarbonate"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Muschelkalk"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hauptdolomit"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Raibl"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/TriassicDetrital"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Buntsandstein"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -1094,6 +1163,8 @@
 	<skos:altLabel xml:lang="fr">Socle cristallin, Cristallin</skos:altLabel>
 	<skos:altLabel xml:lang="it">Cristallino</skos:altLabel>
 	<skos:notation>15287001</skos:notation>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementPrevariscan"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -1107,6 +1178,9 @@
 	<skos:prefLabel xml:lang="it">Basamento varisco</skos:prefLabel>
 	<skos:notation>15287002</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanMiddle"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPreEarly"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -1120,6 +1194,8 @@
 	<skos:prefLabel xml:lang="it">Basamento tardi- a post-varisco</skos:prefLabel>
 	<skos:notation>15287003</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPost"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLate"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -1172,6 +1248,7 @@
 	<skos:prefLabel xml:lang="it">Basamento pre- a eovarisco</skos:prefLabel>
 	<skos:notation>15287007</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanEarly"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
