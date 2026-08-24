@@ -8,7 +8,8 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:adms="http://www.w3.org/ns/adms#">
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -30,6 +31,7 @@
 	<skos:prefLabel xml:lang="it">Post-Messiniano</skos:prefLabel>
 	<skos:notation>15281001</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianMarine"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -41,8 +43,8 @@
 	<skos:prefLabel xml:lang="de">Post-Messinien Marine Ablagerungen</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Dépôts Marins Post-Messiniens</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Depositi Marini Post-Messiniani</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Astian</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Astien</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Astian»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Astien»</skos:altLabel>
 	<skos:notation>15285022</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinian"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -82,9 +84,9 @@
 	<skos:definition xml:lang="en">The Alpine Magmatism Correlation Enveloppe encompasses all magmatic bodies of Cenozoic age emplaced regionally during the Alpine Orogenic Cycle, both as deep-seated intrusions and as (sub)surface volcanic edifices.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Alpine Magmatism</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Alpines Magmatismus</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Magmatisme alpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Magmatismo alpino</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpiner Magmatismus</skos:prefLabel>
 	<skos:notation>15283001</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism"/>
@@ -94,12 +96,12 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AlpineVolcanism">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Alpine Volcanism Correlation Enveloppe encompasse alls (sub)volcanic edifices of Cenozoic age emplaced both within the Alpine Orogeny (along the Periadriatic Fault System) and to its northern border in the Western European Rift System (Hegau).</skos:definition>
+	<skos:definition xml:lang="en">The Alpine Volcanism Correlation Enveloppe encompasse all (sub)volcanic edifices of Cenozoic age emplaced both within the Alpine Orogeny (along the Periadriatic Fault System) and to its northern border in the Western European Rift System (Hegau).</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Alpine Volcanism</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Alpines Vulkanismus</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Volcanisme alpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Vulcanismo alpino</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Alpiner Vulkanismus</skos:prefLabel>
 	<skos:notation>15283002</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/HegauVolcanism"/>
@@ -128,9 +130,9 @@
 	<skos:definition xml:lang="en">Alpine Volcanism in the Periadriatic region occured within the Alpine Orogeny, along the Periadriatic Fault System.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Periadriatic Volcanism</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Periadriatisches Vulkanismus</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Volcanisme périadriatique</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Vulcanismo periadriatico</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Periadriatischer Vulkanismus</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Periadriatic Volcanic Province</skos:altLabel>
 	<skos:altLabel xml:lang="de">Periadriatische Vulkanite</skos:altLabel>
 	<skos:notation>15283004</skos:notation>
@@ -206,7 +208,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Sedimentary Cover Correlation Enveloppe refers to the relatively thin layer of sedimentary rocks that lies on top of an older crystalline basement. In case of the Alpine Cycle, these sedimentary rocks are of (Permo-)Triassic to Cenozoic age. The Sedimentary Cover can be found still adherent to its basement or detached along a weak layer (mostly evaporites of Triassic age).</skos:definition>
+	<skos:definition xml:lang="en">The Sedimentary Cover Correlation Enveloppe refers to the relatively thin layer of sedimentary rocks that lies on top of an older crystalline basement. In case of the Alpine Cycle, these sedimentary rocks are of (Permo-)Triassic to Cenozoic age. The Sedimentary Cover can be found still adherent to its underlying basement or detached from its «root» along a weak layer (mostly evaporites of Triassic age).</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Sedimentary Cover</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Sedimentbedeckung</skos:prefLabel>
@@ -225,7 +227,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostCollision">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Post-Collision Correlation Enveloppe refers to all lithostratigraphic bodies that were formed after the main Alpine orogenic phase, i.e.the "post-flysch" infilling of the foreland basins, both north and south of the Alpine Mountain Chain.</skos:definition>
+	<skos:definition xml:lang="en">The Post-Collision Correlation Enveloppe refers to all lithostratigraphic bodies that were formed after the main Alpine orogenic phase, i.e.the «post-flysch» infilling of the foreland basins, both north and south of the Alpine Mountain Chain.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Post-Collision</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Post-Kollision</skos:prefLabel>
@@ -240,13 +242,17 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LombardianGompholite">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">… "post-flysch" infilling of the South-Alpine Foreland Basin, with mainly clastic material …</skos:definition>
+	<skos:definition xml:lang="en">The Lombardian Gompholite designates the «post-flysch» infilling of the South-Alpine Foreland Basin, largely made up of coarse clastic material.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Lombardian Gompholite</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Lombardischer Gompholit</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Gompholite Lombarde</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Gonfolite Lombarda</skos:prefLabel>
-	<skos:altLabel xml:lang="de">Südalpine Molasse, Gonfolite-Gruppe</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Molasse Sudalpine»</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Südalpine Molasse»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Southalpine Molasse»</skos:altLabel>
+	<skos:altLabel xml:lang="it">«Molassa Sudalpina»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">Gonfolite-Gruppe</skos:hiddenLabel>
 	<skos:notation>15285003</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -254,7 +260,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Molasse">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">In Switzerland, the “Molasse Supergroup” encompasses all "post-flysch" deposits accumulated in the foreland basins bordering the Alpine mountain range and resulting from the erosion of that range. These are therefore primarily more or less coarse detrital sequences (conglomerates, sandstones, clays). For the Swiss molasse basin, this mainly concerns the Oligocene and Miocene (between approximately 33 and 10 million years ago), with alternating fluvial-lacustrine and shallow marine environments, depending on the relative sea level, basin subsidence, and uplift of the relief.</skos:definition>
+	<skos:definition xml:lang="en">In Switzerland, the «Molasse Supergroup» encompasses all «post-flysch» deposits accumulated in the foreland basins bordering the Alps and resulting from the erosion of that mountain range. These are therefore primarily more or less coarse detrital sequences (conglomerates, sandstones, clays). For the Swiss molasse basin, this mainly concerns the Oligocene and Miocene (between approximately 33 and 10 million years ago), with alternating fluvial-lacustrine and shallow marine environments, depending on the relative sea level, basin subsidence, and uplift of the relief.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Molasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Molasse</skos:prefLabel>
@@ -262,7 +268,7 @@
 	<skos:prefLabel xml:lang="it">Molassa</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Molasse Supergroup</skos:altLabel>
 	<skos:altLabel xml:lang="de">Molasse-Supergruppe</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Mollasse</skos:altLabel>
+	<skos:hiddenLabel xml:lang="fr">Mollasse</skos:hiddenLabel>
 	<skos:notation>15285004</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostCollision"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
@@ -327,7 +333,8 @@
 	<skos:prefLabel xml:lang="fr">OSM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">OSM-I</skos:prefLabel>
 	<skos:altLabel xml:lang="en">OSM-1</skos:altLabel>
-	<skos:altLabel xml:lang="de">untere Stufe der OSM, Basiszone der OSM</skos:altLabel>
+	<skos:altLabel xml:lang="de">untere Stufe der OSM</skos:altLabel>
+	<skos:altLabel xml:lang="de">Basiszone der OSM</skos:altLabel>
 	<skos:notation>15285008</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OSM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -354,8 +361,8 @@
 	<skos:prefLabel xml:lang="de">Obere Meeresmolasse (OMM)</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Molasse marine supérieure (OMM)</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Molassa marina superiore (OMM)</skos:prefLabel>
-	<skos:altLabel xml:lang="en">UMM</skos:altLabel>
 	<skos:altLabel xml:lang="fr">MMS</skos:altLabel>
+	<skos:hiddenLabel xml:lang="en">«UMM»</skos:hiddenLabel>
 	<skos:notation>15285010</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM2"/>
@@ -372,7 +379,8 @@
 	<skos:prefLabel xml:lang="fr">OMM-II</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">OMM-II</skos:prefLabel>
 	<skos:altLabel xml:lang="en">OMM-2</skos:altLabel>
-	<skos:altLabel xml:lang="de">Obere Abteilung der Oberen Molasse, Helvétien</skos:altLabel>
+	<skos:altLabel xml:lang="de">Obere Abteilung der Oberen Molasse</skos:altLabel>
+	<skos:hiddenLabel xml:lang="fr">«Helvétien»</skos:hiddenLabel>
 	<skos:notation>15285011</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -380,15 +388,16 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OMM1">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The lower part of the Upper Marine Molasss (OMM_I) represents the first marine transgression of the Miocene. It is characterized by shallow-water sediments with hints of increased salinity (glauconite content, microfauna, abundance of scutella in the shelly sandstone). Regionally widespread shelly sandstones are interpreted as deposits formed during the maximum extent of this transgression. It was then followed by a regression, which led to the local deposition of a fluvioterrestrial to brackish complex.</skos:definition>
+	<skos:definition xml:lang="en">The lower part of the Upper Marine Molasss (OMM-I) represents the first marine transgression of the Miocene. It is characterized by shallow-water sediments with hints of increased salinity (glauconite content, microfauna, abundance of scutella in the shelly sandstone). Regionally widespread shelly sandstones are interpreted as deposits formed during the maximum extent of this transgression. It was then followed by a regression, which led to the local deposition of a fluvioterrestrial to brackish complex.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">OMM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">OMM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">OMM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">OMM-I</skos:prefLabel>
 	<skos:altLabel xml:lang="en">OMM-1</skos:altLabel>
-	<skos:altLabel xml:lang="de">Untere Abteilung der Oberen Molasse, Burdigalien</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Molasse burdigalienne</skos:altLabel>
+	<skos:altLabel xml:lang="de">Untere Abteilung der Oberen Molasse</skos:altLabel>
+	<skos:hiddenLabel xml:lang="fr">«Burdigalien»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Molasse burdigalienne»</skos:hiddenLabel>
 	<skos:notation>15285012</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -403,8 +412,9 @@
 	<skos:prefLabel xml:lang="fr">Molasse d'eau douce inférieure (USM)</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Molassa d'acqua dolce inferiore (USM)</skos:prefLabel>
 	<skos:altLabel xml:lang="en">LFM</skos:altLabel>
-	<skos:altLabel xml:lang="de">Oligocäne Molasse</skos:altLabel>
-	<skos:altLabel xml:lang="fr">MDI, Molasse oligocène</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MDI</skos:altLabel>
+	<skos:hiddenLabel xml:lang="fr">«Molasse oligocène»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="de">«Oligocäne Molasse»</skos:hiddenLabel>
 	<skos:notation>15285013</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM3"/>
@@ -437,8 +447,10 @@
 	<skos:prefLabel xml:lang="fr">USM-II</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">USM-II</skos:prefLabel>
 	<skos:altLabel xml:lang="en">USM-2</skos:altLabel>
-	<skos:altLabel xml:lang="de">Aquitanien, Granitische Molasse</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Molasse aquitanienne</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Granitische Molasse»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">«Aquitane Molasse»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Molasse aquitanienne»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Aquitanien»</skos:hiddenLabel>
 	<skos:notation>15285015</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -453,8 +465,9 @@
 	<skos:prefLabel xml:lang="fr">USM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">USM-I</skos:prefLabel>
 	<skos:altLabel xml:lang="en">USM-1</skos:altLabel>
-	<skos:altLabel xml:lang="de">Chattien</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Molasse chattienne</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">«Chattische Molasse»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Molasse chattienne»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Chattien»</skos:hiddenLabel>
 	<skos:notation>15285016</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/USM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -485,7 +498,8 @@
 	<skos:prefLabel xml:lang="fr">Molasse marine inférieure (UMM)</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Molassa marina inferiore (OMM)</skos:prefLabel>
 	<skos:altLabel xml:lang="en">LMM</skos:altLabel>
-	<skos:altLabel xml:lang="fr">MMI, Molasse rupélienne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">MMI</skos:altLabel>
+	<skos:hiddenLabel xml:lang="fr">«Molasse rupélienne»</skos:hiddenLabel>
 	<skos:notation>15285018</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Molasse"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM3"/>
@@ -503,7 +517,8 @@
 	<skos:prefLabel xml:lang="fr">UMM-III</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">UMM-III</skos:prefLabel>
 	<skos:altLabel xml:lang="en">UMM-3</skos:altLabel>
-	<skos:altLabel xml:lang="de">Obere UMM, Regressive Küstenfazies</skos:altLabel>
+	<skos:altLabel xml:lang="de">Obere UMM</skos:altLabel>
+	<skos:altLabel xml:lang="de">Regressive Küstenfazies der UMM</skos:altLabel>
 	<skos:notation>15285019</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -518,7 +533,8 @@
 	<skos:prefLabel xml:lang="fr">UMM-II</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">UMM-II</skos:prefLabel>
 	<skos:altLabel xml:lang="en">UMM-2</skos:altLabel>
-	<skos:altLabel xml:lang="de">Mittlere UMM, Tonmergelabfolge</skos:altLabel>
+	<skos:altLabel xml:lang="de">Mittlere UMM</skos:altLabel>
+	<skos:altLabel xml:lang="de">Tonmergelabfolge der UMM</skos:altLabel>
 	<skos:notation>15285020</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -533,8 +549,9 @@
 	<skos:prefLabel xml:lang="fr">UMM-I</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">UMM-I</skos:prefLabel>
 	<skos:altLabel xml:lang="en">UMM-1</skos:altLabel>
-	<skos:altLabel xml:lang="de">Untere UMM, Flysch-Molasse</skos:altLabel>
 	<skos:altLabel xml:lang="fr">Série molassique à faciès flysch</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Flysch-Molasse»</skos:altLabel>
+	<skos:altLabel xml:lang="de">Untere UMM</skos:altLabel>
 	<skos:notation>15285021</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/UMM"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -542,13 +559,14 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/SynCollision">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">Alpine Syn-Collision Correlation Enveloppes encompass lithostratigraphic units formed at the Alpine front during the main phase(s) of deformation. These synorogenic deposits are mainly flyschs and mélanges.</skos:definition>
+	<skos:definition xml:lang="en">The Alpine Syn-Collision Correlation Enveloppe encompasses lithostratigraphic units formed at the Alpine front during the main phase(s) of deformation. These synorogenic deposits are mainly flyschs and mélanges.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Syn-Collision</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Syn-Kollision</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Syn-collision</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Sin-collisione</skos:prefLabel>
 	<skos:notation>15285023</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Melange"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Flysch"/>
@@ -557,16 +575,16 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Melange">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">Mélanges are synorogenic chaotic deposits characterised by a block-in-matrix fabric ("wildflysch", "flysch à lentilles", resp. "blocs exotiques" auct.) . They are thought to be formed by sedimentary processes at the active Alpine front, by tectonic processes within the Alpine nappe stack, or by a combination of both.</skos:definition>
+	<skos:definition xml:lang="en">Mélanges are synorogenic chaotic deposits characterised by a block-in-matrix fabric («wildflysch», «flysch à lentilles», resp. «blocs exotiques» auct.). They are thought to be formed by sedimentary processes at the active Alpine front, by tectonic processes within the Alpine nappe stack, or by a combination of both.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Mélange</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Melange</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Mélange</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Mélange</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Wildflysch</skos:altLabel>
 	<skos:altLabel xml:lang="de">Wildflysch</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Wildflysch</skos:altLabel>
-	<skos:altLabel xml:lang="it">Wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="en">wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="fr">wildflysch</skos:altLabel>
+	<skos:altLabel xml:lang="it">wildflysch</skos:altLabel>
 	<skos:notation>15285024</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynCollision"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -634,7 +652,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostRift">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">Alpine Post-Rift Correlation Enveloppes encompass lithostratigraphic units formed after the Tethyan rifting phase and before the Alpine mountain building.</skos:definition>
+	<skos:definition xml:lang="en">The Alpine Post-Rift Correlation Enveloppe encompasses lithostratigraphic units formed after the Tethyan rifting phase and before the Alpine mountain building.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Post-Rift</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Post-Rift</skos:prefLabel>
@@ -696,7 +714,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Maiolica">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Maiolica Correlation Enveloppe encompasses white-coloured micritic limestone deposits of Late Jurassic to Early Cretaceous age in the South Alpine domain.</skos:definition>
+	<skos:definition xml:lang="en">The Maiolica Correlation Enveloppe encompasses white-coloured micritic limestone deposits of Late Jurassic to Early Cretaceous age in the South Alpine, Austroalpine and Upper Penninic (sub)domains.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Maiolica / Aptychus Limestone</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Maiolica / Aptychenkalk</skos:prefLabel>
@@ -711,7 +729,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Radiolarite">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Radiolarite Correlation Enveloppe encompasses radiolarian-rich deposits of Middle to Late Jurassic age in the South Alpine domain.</skos:definition>
+	<skos:definition xml:lang="en">The Radiolarite Correlation Enveloppe encompasses radiolarian-rich deposits of Middle to Late Jurassic age in the South Alpine, Austroalpine and Upper Penninic (sub)domains.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Radiolarite</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Radiolarit</skos:prefLabel>
@@ -789,11 +807,14 @@
 	<skos:prefLabel xml:lang="fr">Malm</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Malm</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Upper Jurassic</skos:altLabel>
-	<skos:altLabel xml:lang="de">Oberjura, Oberer Jura, Malmkalk</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Jurassique supérieur, Calcaire du Malm</skos:altLabel>
 	<skos:altLabel xml:lang="it">Giurassico superiore</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Calcaire du Malm</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Jurassique supérieur</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberer Jura</skos:altLabel>
+	<skos:altLabel xml:lang="de">Malmkalk</skos:altLabel>
+	<skos:altLabel xml:lang="de">Oberjura</skos:altLabel>
 	<skos:notation>15285039</skos:notation>
-	<skos:historyNote xml:lang="en">In the past, the term Malm was also used to indicate the unit of geological time of the Late Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
+	<skos:historyNote xml:lang="en">In the past, the terms Upper Jurassic or Malm were also used to indicate the unit of geological time of the Late Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostRiftPlatform"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
@@ -806,8 +827,12 @@
 	<skos:prefLabel xml:lang="de">Oberer Malm</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Malm supérieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Malm superiore</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Sequanian, Kimmeridgian, Portlandian</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Séquanien, Kimméridgien, Portlandien</skos:altLabel>
+	<skos:hiddenLabel xml:lang="en">«Sequanian»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="en">«Kimmeridgian»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="en">«Portlandian»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Séquanien»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Kimméridgien»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Portlandien»</skos:hiddenLabel>
 	<skos:notation>15285055</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/MalmUpper"/>
@@ -823,8 +848,13 @@
 	<skos:prefLabel xml:lang="de">Unterer Malm</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Malm inférieur</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Malm inferiore</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Oxfordian, Argovian, Rauracian</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Oxfordien, Argovien, Rauracien</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Argovian Facies»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Rauracian Facies»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Faciès Argovien»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Faciès Rauracien»</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Raurazische Fazies»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="en">«Oxfordian»</skos:hiddenLabel>
+	<skos:hiddenLabel xml:lang="fr">«Oxfordien»</skos:hiddenLabel>
 	<skos:notation>15285056</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Malm"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
@@ -936,7 +966,7 @@
 	<skos:prefLabel xml:lang="fr">Lias</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Lias</skos:prefLabel>
 	<skos:notation>15285060</skos:notation>
-	<skos:historyNote xml:lang="en">In the past, the term Lias or Liassic was also used to indicate the unit of geological time of the Early Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
+	<skos:historyNote xml:lang="en">In the past, the terms Lower Jurassic, Lias or Liassic were also used to indicate the unit of geological time of the Early Jurassic, but this usage is now discouraged to make a clear distinction between lithostratigraphic and geochronologic/chronostratigraphic units.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasDogger"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasUpper"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LiasMiddle"/>
@@ -1159,9 +1189,11 @@
 	<skos:prefLabel xml:lang="fr">Socle anté-alpin</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Basamento ante-alpino</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Crystalline Basement</skos:altLabel>
-	<skos:altLabel xml:lang="de">Kristallines Grundgebirge, Kristallin</skos:altLabel>
-	<skos:altLabel xml:lang="fr">Socle cristallin, Cristallin</skos:altLabel>
-	<skos:altLabel xml:lang="it">Cristallino</skos:altLabel>
+	<skos:altLabel xml:lang="de">Kristallines Grundgebirge</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Socle cristallin</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Kristallin»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Cristallin»</skos:altLabel>
+	<skos:altLabel xml:lang="it">«Cristallino»</skos:altLabel>
 	<skos:notation>15287001</skos:notation>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementPrevariscan"/>
@@ -1170,12 +1202,15 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscan">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during the Variscan Orogenic Cycle.</skos:definition>
+	<skos:definition xml:lang="en">The Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced during the Variscan Orogenic Cycle.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Variszisches Grundgebirge</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Socle varisque</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Basamento varisco</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Socle hercynien</skos:altLabel>
+	<skos:altLabel xml:lang="en">Hercynian Basement</skos:altLabel>
+	<skos:altLabel xml:lang="de">Herzynisches Grundgebirge</skos:altLabel>
 	<skos:notation>15287002</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost"/>
@@ -1186,7 +1221,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLatePost">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Late to Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced at the end of the Variscan Orogenic Cycle and therefore not (or only weakly) affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:definition xml:lang="en">The Late to Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced at the end of the Variscan Orogenic Cycle and therefore not (or only weakly) affected by ante-Alpine metamorphism.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Late to Post Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Spät- bis postvariszisches Grundgebirge</skos:prefLabel>
@@ -1201,7 +1236,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPost">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced at the very end of the Variscan Orogenic Cycle and therefore not affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:definition xml:lang="en">The Post-Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced at the very end of the Variscan Orogenic Cycle and therefore not affected by ante-Alpine metamorphism.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Post Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Postvariszisches Grundgebirge</skos:prefLabel>
@@ -1214,7 +1249,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanLate">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Late Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced in a late phase of the Variscan Orogenic Cycle and therefore only partly affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:definition xml:lang="en">The Late Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced in a late phase of the Variscan Orogenic Cycle and therefore only partly affected by ante-Alpine metamorphism.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Late Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Spätvariszisches Grundgebirge</skos:prefLabel>
@@ -1227,7 +1262,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanMiddle">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Middle Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during the Variscan Orogenic Cycle and clearly affected by ante-Alpine metamorphism.</skos:definition>
+	<skos:definition xml:lang="en">The Middle Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced during the Variscan Orogenic Cycle and clearly affected by ante-Alpine metamorphism.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Middle Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Mittelvariszisches Grundgebirge</skos:prefLabel>
@@ -1240,7 +1275,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanPreEarly">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Pre- to Earl Variscan Basement Correlation Enveloppe encompasses sedimentary rocks formed before or during the early phase(s) of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
+	<skos:definition xml:lang="en">The Pre- to Early Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks formed before or during the early phase(s) of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Pre- to Early Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Prä- bis frühvariszisches Grundgebirge</skos:prefLabel>
@@ -1254,7 +1289,7 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/BasementVariscanEarly">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:definition xml:lang="en">The Early Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive rocks emplaced during an early phase of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
+	<skos:definition xml:lang="en">The Early Variscan Basement Correlation Enveloppe encompasses intrusive and extrusive, as well as sedimentary rocks emplaced during an early phase of the Variscan Orogenic Cycle and displaying a complex metamorphic history.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Early Variscan Basement</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Frühvariszisches Grundgebirge</skos:prefLabel>
@@ -1273,11 +1308,136 @@
 	<skos:prefLabel xml:lang="de">Prävariszisches Grundgebirge</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Socle anté-varisque</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Basamento ante-varisco</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Pre-Hercanian Gneiss Series</skos:altLabel>
-	<skos:altLabel xml:lang="de">Altkristallin, Polyzyklisches Grundgebirge, Vorvariszisches Grundgebirge</skos:altLabel>
+	<skos:altLabel xml:lang="en">Pre-Hercynian Gneiss Series</skos:altLabel>
+	<skos:altLabel xml:lang="de">Polyzyklisches Grundgebirge</skos:altLabel>
+	<skos:altLabel xml:lang="de">Vorvariszisches Grundgebirge</skos:altLabel>
+	<skos:altLabel xml:lang="de">«Altkristallin»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Schistes cristallins»</skos:altLabel>
 	<skos:notation>15287009</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementAnteAlpine"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/OrdovicianOrthogneiss"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Deckenschotter</skos:prefLabel>
+	<skos:altLabel xml:lang="en">«Cover Gravel»</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/HoehereDeckeschotter"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/TiefereDeckenschotter"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="de">Tiefstes und in den meisten Tälern auch einziges morphologisch klar ausgebildetes (erhaltenes) Terrassensystem des Quartärs. Oft mehrstufig (mehrphasig) ausgebildet und mit den letzteiszeitlichen Endmoränen (wo vorhanden) kartographisch verknüpfbar.
+</skos:definition>
+	<skos:scopeNote xml:lang="de">Die Bezeichnung Niederterrasse ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Späten Pleistozäns, exkl. Letztes Interglazial). Da der Gletscherrückzug heterochron verlaufen ist, können lokale spätglaziale Einheiten der Niederterrasse bis im frühesten Holozän abgelagert worden sein.</skos:scopeNote>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Niederterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Niederterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Niederterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Niederterrasse</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">«Basse Terrasse»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Low Terrasse»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Terrasse Inférieure»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">«Würm»</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="de">Quartäre Beckenfüllungen von beträchtlich in die Landschaften der Höheren und Tieferen Deckenschotter eingetieften Täler, mit beträchtlichen Verwitterungstiefen (mehrere Meter).</skos:definition>
+	<skos:scopeNote xml:lang="de">Die Bezeichnung Hochterrasse ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Mittleren Pleistozäns, inkl. Letztes Interglazial im frühesten Späten Pleistozän).</skos:scopeNote>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Hochterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Hochterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Hochterrasse</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Hochterrasse</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">«Haute Terrasse»</skos:altLabel>
+	<skos:altLabel xml:lang="fr">«Terrasse Supérieure»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«High Terrasse»</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Post-Messinian Terrestrial Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Post-Messinien Terrestrische Ablagerungen</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts Terrestres Post-Messiniens</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Depositi Terrestrici Post-Messiniani</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinian"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/RecentDeposits"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/RecentDeposits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Recent Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts récents</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Rezente Ablagerungen</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Glacial Period Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts des Périodes Glaciaires</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Eiszeitliche Ablagerungen</skos:prefLabel>
+	<skos:historyNote xml:lang="de">Aufgrund der grundlegenden Unterschiede zwischen Süddeutschland und der Schweiz hinsichtlich der morphogenetischen Steuerung des Entwässerungssystems - insbesondere hinsichtlich der morphostratigraphischen Lage verschiedener lithostratigraphischer Einheiten - sollte die Nomenklatur von Penck &amp; Brückner (Würm, Riss, Mindel, Günz) in der Schweiz nicht mehr angewendet werden.</skos:historyNote>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/HoehereDeckeschotter">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="de">Herausragende quartäre Tafelberge, von der erste Sedimente nach der postmolassischen Schichtlücke gebildet wurden.</skos:definition>
+	<skos:scopeNote xml:lang="de">Die Bezeichnung Höhere Deckenschotter ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Frühen Pleistozäns).</skos:scopeNote>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Höhere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Höhere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Höhere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Höhere Deckenschotter</skos:prefLabel>
+	<skos:altLabel xml:lang="de">«Älterer Deckenschotter»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Upper Cover Gravel»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">«Günz»</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/TiefereDeckenschotter">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="de">Teilweise auf definiertes Niveau verfüllte, in die Höheren Deckenschotter eingetiefte Täler (Annäherung an die heutigen Talsysteme und somit höchstgelegene Terrassen unterhalb der Höheren-Deckenschotter-Tafelberge) des Quartärs der zentralen/östlichen Nordschweiz.</skos:definition>
+	<skos:scopeNote xml:lang="de">Die Bezeichnung Tiefere Deckenschotter ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Frühen Pleistozäns).</skos:scopeNote>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Tiefere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Tiefere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Tiefere Deckenschotter</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Tiefere Deckenschotter</skos:prefLabel>
+	<skos:altLabel xml:lang="de">«Jüngerer Deckenschotter»</skos:altLabel>
+	<skos:altLabel xml:lang="en">«Lower Cover Gravel,»</skos:altLabel>
+	<skos:hiddenLabel xml:lang="de">«Mindel»</skos:hiddenLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OrdovicianOrthogneiss">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Ordovician Orthogneisses witness of a widespread magmatic pulse or crustal melting event recorded in the Pre-Variscan Basement.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Ordovician Orthogneiss</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Orthogneiss ordovicien</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Ortogneiss ordoviciano</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Ordoviszischer Orthogneis</skos:prefLabel>
+	<skos:notation>15287010</skos:notation>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementPrevariscan"/>
 </rdf:Description>
 
 </rdf:RDF>
