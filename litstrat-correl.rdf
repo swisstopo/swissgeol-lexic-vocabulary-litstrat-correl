@@ -72,10 +72,11 @@
 	<skos:prefLabel xml:lang="en">Alpine Orogeny</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Alpine Orogenese</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Orogenèse alpine</skos:prefLabel>
-	<skos:prefLabel xml:lang="it">Orogenesi alpina</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Orogenese alpina</skos:prefLabel>
 	<skos:notation>15283200</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineCycle"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineMagmatism"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SynCollision"/>
 	<admsstatus xmlns="http://www.w3.org/ns/">active</admsstatus>
 </rdf:Description>
 
@@ -566,7 +567,6 @@
 	<skos:prefLabel xml:lang="fr">Syn-collision</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Sin-collisione</skos:prefLabel>
 	<skos:notation>15285023</skos:notation>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AlpineOrogeny"/>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/SedimentaryCover"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Melange"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Flysch"/>
@@ -1321,47 +1321,70 @@
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">The term Deckenschotter should be understood in a broad sense. It implicitly carries a chronostratigraphic connotation (deposits of the Early Pleistocene).</skos:scopeNote>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Deckenschotter</skos:prefLabel>
 	<skos:altLabel xml:lang="en">«Cover Gravel»</skos:altLabel>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/HoehereDeckeschotter"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/TiefereDeckenschotter"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="de">Tiefstes und in den meisten Tälern auch einziges morphologisch klar ausgebildetes (erhaltenes) Terrassensystem des Quartärs. Oft mehrstufig (mehrphasig) ausgebildet und mit den letzteiszeitlichen Endmoränen (wo vorhanden) kartographisch verknüpfbar.
 </skos:definition>
+	<skos:definition xml:lang="en">The morphostratigraphically defined Niederterrasse correlation enveloppe corresponds to the lowest and, in most valleys, the only morphologically well-defined (preserved) Quaternary terrace system. Its is often multi-tiered (multi-phase) in structure and can be linked cartographically to the terminal moraines of the Last Glacial Period (where present).</skos:definition>
 	<skos:scopeNote xml:lang="de">Die Bezeichnung Niederterrasse ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Späten Pleistozäns, exkl. Letztes Interglazial). Da der Gletscherrückzug heterochron verlaufen ist, können lokale spätglaziale Einheiten der Niederterrasse bis im frühesten Holozän abgelagert worden sein.</skos:scopeNote>
+	<skos:scopeNote xml:lang="en">The term Niederterrace should be understood in a broad sense. It implicitly carries a chronostratigraphic connotation (Late Pleistocene deposits, to the exclusion of the Last Interglacial). However, as glacial retreat occurred heterochronously, local Late Glacial units of the Niederterrace may have been deposited during the earliest Holocene.</skos:scopeNote>
+	<skos:example xml:lang="de">Niederterrasse (Gutzwiller 1894 S. 517)</skos:example>
+	<skos:example xml:lang="de">Niederterrassenschotter (Gutzwiller 1894 und 1912)</skos:example>
+	<skos:example xml:lang="de">Würmschotter = Würmablagerungen (Kelhofer 1913)</skos:example>
+	<skos:example xml:lang="de">Jungmoräne und Niederterrasse (Nussbaum 1921)</skos:example>
+	<skos:example xml:lang="fr">Basse terrasse = 1-3 m au-dessus de la plaine alluviale actuelle (Schneegans 1934)</skos:example>
+	<skos:example xml:lang="de">Jungeiszeitliche Schotter (Gerber 1941)</skos:example>
+	<skos:example xml:lang="en">Low Terrasse (Preusser et al. 2011)</skos:example>
+	<skos:example xml:lang="fr">Terrasse inférieure</skos:example>
+	<skos:example xml:lang="fr">Basse Terrasse</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Niederterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Niederterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Niederterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Niederterrasse</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">«Basse Terrasse»</skos:altLabel>
-	<skos:altLabel xml:lang="en">«Low Terrasse»</skos:altLabel>
-	<skos:altLabel xml:lang="fr">«Terrasse Inférieure»</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">«Würm»</skos:hiddenLabel>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="de">Quartäre Beckenfüllungen von beträchtlich in die Landschaften der Höheren und Tieferen Deckenschotter eingetieften Täler, mit beträchtlichen Verwitterungstiefen (mehrere Meter).</skos:definition>
+	<skos:definition xml:lang="en">The morphostratigraphically defined Hochterrasse correlation enveloppe corresponds to Quaternary basin deposits in valleys that are deeply incised into the landscapes of the Höhere and Tiefere Deckenschotter, with considerable depths of weathering (several metres). The accumulation level of the Hochterrasse lies higher upslope than that of the Niederterrasse (the lattest incising the former).</skos:definition>
 	<skos:scopeNote xml:lang="de">Die Bezeichnung Hochterrasse ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Mittleren Pleistozäns, inkl. Letztes Interglazial im frühesten Späten Pleistozän).</skos:scopeNote>
+	<skos:scopeNote xml:lang="en">The term Hochterrace should be understood in a broad sense. It implicitly carries a chronostratigraphic connotation (deposits of the Middle Pleistocene, including the Last Interglacial in the earliest Late Pleistocene).</skos:scopeNote>
+	<skos:example xml:lang="de">Hochterrasse (Gutzwiller 1894)</skos:example>
+	<skos:example xml:lang="de">Hochterrassenschotter (Gutzwiller 1894 und 1912)</skos:example>
+	<skos:example xml:lang="de">Rissschotter (Kelhofer 1913)</skos:example>
+	<skos:example xml:lang="de">Altmoräne und Hochterrasse (Nussbaum 1921)</skos:example>
+	<skos:example xml:lang="fr">Haute terrasse = 10-25 m au-dessus de la plaine alluviale actuelle (Schneegans 1934)</skos:example>
+	<skos:example xml:lang="de">Altmoränen = Riss (Geiger 1943)</skos:example>
+	<skos:example xml:lang="fr">Terrasse supérieure</skos:example>
+	<skos:example xml:lang="fr">Haute Terrasse</skos:example>
+	<skos:example xml:lang="en">High Terrace (Preusser et al. 2011, Claude et al. 2017)</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Hochterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Hochterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Hochterrasse</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Hochterrasse</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">«Haute Terrasse»</skos:altLabel>
-	<skos:altLabel xml:lang="fr">«Terrasse Supérieure»</skos:altLabel>
-	<skos:altLabel xml:lang="en">«High Terrasse»</skos:altLabel>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial">
@@ -1372,51 +1395,67 @@
 	<skos:prefLabel xml:lang="fr">Dépôts Terrestres Post-Messiniens</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Depositi Terrestrici Post-Messiniani</skos:prefLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinian"/>
-	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/RecentDeposits"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/RecentDeposits">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
-	<skos:prefLabel xml:lang="en">Recent Deposits</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Dépôts récents</skos:prefLabel>
-	<skos:prefLabel xml:lang="de">Rezente Ablagerungen</skos:prefLabel>
-	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostglacialDeposits"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Correlation Enveloppe "Glacial Period Deposits" encompasses all glacial, periglacial and interglacial deposits of Pleistocene age.</skos:definition>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Glacial Period Deposits</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Dépôts des Périodes Glaciaires</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Eiszeitliche Ablagerungen</skos:prefLabel>
 	<skos:historyNote xml:lang="de">Aufgrund der grundlegenden Unterschiede zwischen Süddeutschland und der Schweiz hinsichtlich der morphogenetischen Steuerung des Entwässerungssystems - insbesondere hinsichtlich der morphostratigraphischen Lage verschiedener lithostratigraphischer Einheiten - sollte die Nomenklatur von Penck &amp; Brückner (Würm, Riss, Mindel, Günz) in der Schweiz nicht mehr angewendet werden.</skos:historyNote>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse"/>
 	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/HoehereDeckeschotter">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="de">Herausragende quartäre Tafelberge, von der erste Sedimente nach der postmolassischen Schichtlücke gebildet wurden.</skos:definition>
+	<skos:definition xml:lang="en">The morphostratigraphically defined Höhere Deckenschotter corresponds to the first Quaternary sediments deposited following the post-Molasse gap in the stratigraphic record. The Höhere Deckenschotter characteristically build up a prominent relictic tabular sheet capping the topography of that time and representing the highest accumulation level of the whole Quaternary.</skos:definition>
 	<skos:scopeNote xml:lang="de">Die Bezeichnung Höhere Deckenschotter ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Frühen Pleistozäns).</skos:scopeNote>
+	<skos:scopeNote xml:lang="en">The term Höhere Deckenschotter should be understood in a broad sense. It implicitly carries a chronostratigraphic connotation (deposits of oldest glacial phase of the Early Pleistocene).</skos:scopeNote>
+	<skos:example xml:lang="de">Oberelsässischer Deckenschotter (Gutzwiller 1894 S.576 und Taf. XI)</skos:example>
+	<skos:example xml:lang="de">Älterer Deckenschotter (Gutzwiller 1912, Geiger 1943, Hofmann 1994)</skos:example>
+	<skos:example xml:lang="de">Günzschotter (Kelhofer 1913)</skos:example>
+	<skos:example xml:lang="de">älterer Deckenschotter (Nussbaum 1921)</skos:example>
+	<skos:example xml:lang="fr">Deckenschotter ancien = Günz = 150-160 m au-dessus du Rhin actuel (Schneegans 1934)</skos:example>
+	<skos:example xml:lang="de">Ältere Deckenschotter = Günzglazial (Giersch 2004)</skos:example>
+	<skos:example xml:lang="de">Höhere Deckenschotter (Preusser et al. 2011, Graf 2024)</skos:example>
+	<skos:example xml:lang="de">Höhere Hochrhein-Deckenschotter (LGRB 2011)</skos:example>
+	<skos:example xml:lang="en">Higher Deckenschotter (Claude et al. 2017)</skos:example>
+	<skos:example xml:lang="en">Upper Cover Gravel</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Höhere Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Höhere Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Höhere Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Höhere Deckenschotter</skos:prefLabel>
-	<skos:altLabel xml:lang="de">«Älterer Deckenschotter»</skos:altLabel>
-	<skos:altLabel xml:lang="en">«Upper Cover Gravel»</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">«Günz»</skos:hiddenLabel>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/TiefereDeckenschotter">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="de">Teilweise auf definiertes Niveau verfüllte, in die Höheren Deckenschotter eingetiefte Täler (Annäherung an die heutigen Talsysteme und somit höchstgelegene Terrassen unterhalb der Höheren-Deckenschotter-Tafelberge) des Quartärs der zentralen/östlichen Nordschweiz.</skos:definition>
+	<skos:definition xml:lang="en">The morphostratigraphically defined Tiefere Deckenschotter corresponds to the partial Quaternary infill (to a defined level) of valleys of the northern part of central and eastern Switzerland that were incised into the Höhere Deckenschotter. The topography of that time roughly matches that of the present-day valley systems and thus build up the highest terraces beneath the tabular deposits of the Höhere Deckenschotter.</skos:definition>
 	<skos:scopeNote xml:lang="de">Die Bezeichnung Tiefere Deckenschotter ist im weiteren Sinn aufzufassen. Sie hat implizit eine chronostratigraphische Konnotation (Ablagerungen des Frühen Pleistozäns).</skos:scopeNote>
+	<skos:scopeNote xml:lang="en">The term Tiefere Deckenschotter should be understood in a broad sense. It implicitly carries a chronostratigraphic connotation (deposits of youngest glacial phase of the Early Pleistocene).</skos:scopeNote>
+	<skos:example xml:lang="de">Jüngerer Deckenschotter (Gutzwiller 1894 und 1912, Hofmann 1994)</skos:example>
+	<skos:example xml:lang="de">Mindelschotter (Kelhofer 1913)</skos:example>
+	<skos:example xml:lang="fr">Deckenschotter récent = Mindel = 80-90 m au-dessus du Rhin actuel (Schneegans 1934)</skos:example>
+	<skos:example xml:lang="de">Jüngerer Deckenschotter = Mindel (Geiger 1943)</skos:example>
+	<skos:example xml:lang="de">jüngerer Deckenschotter (Nussbaum 1921)</skos:example>
+	<skos:example xml:lang="de">Jüngere Deckenschotter = Mindelglazial (Giersch 2004)</skos:example>
+	<skos:example xml:lang="de">Lower Cover Gravel, Komplex der Tieferen Deckenschotter (Keller &amp; Krayss 2010)</skos:example>
+	<skos:example xml:lang="de">Tiefere Hochrhein-Deckenschotter = Mindel-Deckenschotter</skos:example>
 	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
 	<skos:prefLabel xml:lang="en">Tiefere Deckenschotter</skos:prefLabel>
 	<skos:prefLabel xml:lang="de">Tiefere Deckenschotter</skos:prefLabel>
@@ -1425,7 +1464,9 @@
 	<skos:altLabel xml:lang="de">«Jüngerer Deckenschotter»</skos:altLabel>
 	<skos:altLabel xml:lang="en">«Lower Cover Gravel,»</skos:altLabel>
 	<skos:hiddenLabel xml:lang="de">«Mindel»</skos:hiddenLabel>
+	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Deckenschotter"/>
+	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/OrdovicianOrthogneiss">
@@ -1438,6 +1479,107 @@
 	<skos:prefLabel xml:lang="de">Ordoviszischer Orthogneis</skos:prefLabel>
 	<skos:notation>15287010</skos:notation>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/BasementPrevariscan"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PostglacialDeposits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Correlation Enveloppe "Postglacial Deposits" encompasses all deposits of (mostly) Holocene age, formed after the ice retreat of the Last Glacial Period. These include neoglacial, historical and present-day (recent) deposits.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="de">Postglaziale Ablagerungen</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Postglacial Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts postglaciaires</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Depositi postglaciali</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/NeoglacialDeposits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">The Neoglacial, as defined by Porter &amp; Denton (1967), represents a marked global cooling, which led to a renewed advance of the glaciers during the Holocene. Its onset in the Alpine region has been dated to 5.7–5.0 ka BP (Baroni &amp; Orombelli 1996, Magny &amp; Haas 2004). It is noteworthy that, throughout the entire Neoglacial period, the glaciers did not extend beyond the boundaries they reached during the terminal and culmination phases (maximum extent) of the ‘Little Ice Age’ of 1850 (King 1974, Hormes et al. 1998, 2001, Joerin et al. 2006, Ivy-Ochs et al. 2009, Schimmelpfennig 2014, Wirsig et al. 2016a).
+The neoglacial moraines are characterised by their well-preserved morphology, the sparse presence of pioneer vegetation and limited soil formation. In high-alpine areas, they are frequently found downstream of glaciers that still exist today.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Neoglacial Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Neoglaziale Ablagerungen</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts néoglacaires</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Depositi neoglaciali</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostglacialDeposits"/>
+	<dct:bibliographicCitation xml:lang="en">Porter &amp; Denton (1967): Chronology of neoglaciation in the North American cordillera. Amer. J. Sci. 265/3, 177–210.</dct:bibliographicCitation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LittleIceAge">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">... during which the maximum ice extent of the Neoglacial was reached.</skos:definition>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="de">Kleine Eiszeit</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Little Ice Age (LIA)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Petit Âge Glaciaire (PAG)</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Piccola Era Glaciale (PEG)</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/NeoglacialDeposits"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LastGlacialPeriod">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Last Glacial Period</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Letzte Eiszeit</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Ultimo Periodo glaciale</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dernière Période glaciaire</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Birrfeld-Eiszeit</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LastGlacialMaximum">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:scopeNote xml:lang="en">In cartographic practice, the LGM corresponds to the extent of the glaciers that can be spatially delineated by the most recent morphological landforms in the Alpine foreland. This boundary also marks a distinct difference in pedogenic development, with considerably greater depths of weathering and slopes characterised by linear erosion outside the LGM extent. The trimline is regarded as witnessing the maximum elevation reached by the ice in the Alps.</skos:scopeNote>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Last Glacial Maximum (LGM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Letztes Glaziales Maximum (LGM)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dernier Maximum Glaciaire</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Ultimo Massimo Glaciale</skos:prefLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LastGlacialPeriod"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LateGlacialDeposits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Late Glacial Deposits</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Spätglaziale Ablagerungen</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Dépôts tardiglaciaires</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Depositi tardiglaciali</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Ablagerungen des LGM-Rückzugs</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Dépôts des phases de retrait du LGM</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LastGlacialPeriod"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/PenultimateGlacialPeriod">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Penultimate Glacial Period</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Avant-dernière Période glaciaire</skos:prefLabel>
+	<skos:prefLabel xml:lang="de">Vorletzte Eiszeit</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Penultimo Periodo glaciale</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Beringen-Eiszeit</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LargestGlacialPeriod">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="de">Grösste Eiszeit</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Most Extended Glaciation (MEG)</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Période glaciaire la plus étendue</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Largest Glacial Period</skos:altLabel>
+	<skos:altLabel xml:lang="de">Möhlin-Eiszeit</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/AntepenultimateGlacialPeriod">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LithostratigraphicCorrelations"/>
+	<skos:prefLabel xml:lang="en">Antepenultimate Glacial Period</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Antépénultième Période glaciaire</skos:prefLabel>
+	<skos:prefLabel xml:lang="it">Antepenultimo Periodo glaciale</skos:prefLabel>
+	<skos:altLabel xml:lang="de">Habsburg-Eiszeit</skos:altLabel>
+	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Hochterrasse"/>
 </rdf:Description>
 
 </rdf:RDF>
