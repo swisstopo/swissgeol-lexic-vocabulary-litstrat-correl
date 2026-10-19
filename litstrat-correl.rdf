@@ -1359,6 +1359,7 @@
 	<skos:hiddenLabel xml:lang="de">«Würm»</skos:hiddenLabel>
 	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LastGlacialPeriod"/>
 	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
@@ -1384,6 +1385,9 @@
 	<skos:prefLabel xml:lang="it">Hochterrasse</skos:prefLabel>
 	<skos:historyNote xml:lang="en">Due to the fundamental differences between southern Germany and Switzerland with regard to the morphogenetic control of the drainage system – in particular as concerns the morphostratigraphic position of the various lithostratigraphic units – the nomenclature of Penck &amp; Brückner (Würm, Riss, Mindel, Günz) should no longer be used in Switzerland.</skos:historyNote>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/GlacialPeriodsDeposits"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PenultimateGlacialPeriod"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LargestGlacialPeriod"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/AntepenultimateGlacialPeriod"/>
 	<dct:bibliographicCitation xml:lang="en">Graf &amp; Burkhalter (2016): Quaternary deposits: concept for a stratigraphic classification and nomenclature — an example from northern Switzerland. Swiss J. Geosc. 109/2</dct:bibliographicCitation>
 </rdf:Description>
 
@@ -1490,6 +1494,7 @@
 	<skos:prefLabel xml:lang="fr">Dépôts postglaciaires</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Depositi postglaciali</skos:prefLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostMessinianTerrestrial"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/NeoglacialDeposits"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/NeoglacialDeposits">
@@ -1502,6 +1507,7 @@ The neoglacial moraines are characterised by their well-preserved morphology, th
 	<skos:prefLabel xml:lang="fr">Dépôts néoglacaires</skos:prefLabel>
 	<skos:prefLabel xml:lang="it">Depositi neoglaciali</skos:prefLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/PostglacialDeposits"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LittleIceAge"/>
 	<dct:bibliographicCitation xml:lang="en">Porter &amp; Denton (1967): Chronology of neoglaciation in the North American cordillera. Amer. J. Sci. 265/3, 177–210.</dct:bibliographicCitation>
 </rdf:Description>
 
@@ -1525,6 +1531,8 @@ The neoglacial moraines are characterised by their well-preserved morphology, th
 	<skos:prefLabel xml:lang="fr">Dernière Période glaciaire</skos:prefLabel>
 	<skos:altLabel xml:lang="de">Birrfeld-Eiszeit</skos:altLabel>
 	<skos:broader rdf:resource="https://lexic.swissgeol.ch/ls_correlations/Niederterrasse"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LastGlacialMaximum"/>
+	<skos:narrower rdf:resource="https://lexic.swissgeol.ch/ls_correlations/LateGlacialDeposits"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://lexic.swissgeol.ch/ls_correlations/LastGlacialMaximum">
